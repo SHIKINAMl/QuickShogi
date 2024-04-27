@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | 超将棋</title>
+    <title>Unity WebGL Player | QuickShogi</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
@@ -25,12 +25,12 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Build.data",
-        frameworkUrl: "Build/Build.framework.js",
-        codeUrl: "Build/Build.wasm",
+        dataUrl: "Build/Build.data.br",
+        frameworkUrl: "Build/Build.framework.js.br",
+        codeUrl: "Build/Build.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "超将棋",
+        productName: "QuickShogi",
         productVersion: "1.0",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
